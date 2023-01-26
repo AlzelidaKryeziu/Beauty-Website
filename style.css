@@ -5,7 +5,7 @@
     --second-color: #F1D3B3;
     --third-color: #F4EAD5;
     --fourth-color: #D7C0AE;
-    --fifth-color: #AD8B73;
+    --fifth-color: #876445;
 }
 
 *{
@@ -14,8 +14,13 @@
 
 header{
     display: flex;
-    height: 40px;
+    height: 55px;
     background-color: var(--primary-color);
+    width: 100%;
+}
+
+body{
+    height: 100%;
     width: 100%;
 }
 
@@ -31,19 +36,30 @@ header{
 
 .first-pg{
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    background: rgb(201,179,155);
+    background: linear-gradient(0deg, rgba(201,179,155,1) 16%, rgba(217,196,171,1) 41%, rgba(230,209,184,1) 73%, rgba(230,209,184,1) 99%);
 }
 
 ul {
     display: flex;
-    padding-inline-start: 0px;
+    flex-direction: row;
+    padding-inline-start: 10px;
 }
 
 .nav-class {
     display: flex;
+    flex-direction: row;
     list-style: none;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
+    height: 30%;
+    font-size: large;
+    font-weight: bold;
+    color: black;
 }
 
 .first-u li{
@@ -52,6 +68,7 @@ ul {
     padding-left: 5px;
     margin-top: 5px;
 }
+
 
 .second-u li{
     list-style: none;
@@ -64,4 +81,40 @@ ul {
     list-style: none;
     padding-left: 5px;
     margin-top: 5px;
+}
+
+.first-co {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-pg h1 {
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+.first-pg h2 {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.btn{
+    width: 150px;
+    height: 45px;
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    border: none;
+    border-radius: 20px;
+    margin: 3px 0px;
+    font-size: 18px;
 }
