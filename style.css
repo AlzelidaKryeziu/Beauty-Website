@@ -40,8 +40,10 @@ body{
     width: 100%;
     height: 95vh;
     display: flex;
-    background: rgb(201,179,155);
-    background: linear-gradient(0deg, rgba(201,179,155,1) 16%, rgba(217,196,171,1) 41%, rgba(230,209,184,1) 73%, rgba(230,209,184,1) 99%);
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    /*background: rgb(201,179,155);
+    background: linear-gradient(0deg, rgba(201,179,155,1) 16%, rgba(217,196,171,1) 41%, rgba(230,209,184,1) 73%, rgba(230,209,184,1) 99%);*/
 }
 
 ul {
