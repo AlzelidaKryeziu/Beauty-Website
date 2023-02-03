@@ -129,6 +129,8 @@ section{
 }
 
 .second-se{
+    background: rgb(226,205,179);
+    background: linear-gradient(0deg, rgba(226,205,179,1) 3%, rgba(230,216,195,1) 23%, rgba(246,238,225,0.9248949579831933) 50%, rgba(247,233,210,1) 92%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,6 +139,11 @@ section{
     justify-content: space-around;
 }
 
+.description{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 50px;
+}
 .second-btn{
     width: 250px;
     height: 45px;
@@ -151,11 +158,21 @@ section{
 .imgs{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
+img{
+    padding: 40px;
+    display: inline;
+}
 .imgs p{
-    display: flex;
-    text-align: center;
-    align-items: flex-end;
-    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#res{
+    color: var(--primary-color);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
 }
