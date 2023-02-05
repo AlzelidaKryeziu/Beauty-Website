@@ -232,4 +232,41 @@ img{
     align-items: center;
 }
 
-.fourth-se
+.fourth-se{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.customer-review{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.blog{
+    display: flex;
+    flex: 1;
+
+
+}
+
+.left{
+    display: flex;
+    flex: 1;
+    background-color: #876445;
+}
+
+.middle{
+    display: flex;
+    flex: 1;
+    background-color: #D7C0AE;
+}
+
+.right{
+    display: flex;
+    flex: 1;
+    background-color: #F1D3B3;
+}
