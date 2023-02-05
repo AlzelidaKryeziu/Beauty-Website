@@ -44,8 +44,8 @@ body{
     display: flex;
     /*background-image: url("bg.jpg");
     background-repeat: no-repeat;*/
-    background: rgb(201,179,155);
-    background: linear-gradient(0deg, rgba(201,179,155,1) 16%, rgba(217,196,171,1) 41%, rgba(230,209,184,1) 73%, rgba(230,209,184,1) 99%);
+    /*background: rgb(201,179,155);
+    background: linear-gradient(0deg, rgba(201,179,155,1) 16%, rgba(217,196,171,1) 41%, rgba(230,209,184,1) 73%, rgba(230,209,184,1) 99%);*/
 }
 
 ul {
@@ -129,8 +129,8 @@ section{
 }
 
 .second-se{
-    background: rgb(226,205,179);
-    background: linear-gradient(0deg, rgba(226,205,179,1) 3%, rgba(230,216,195,1) 23%, rgba(246,238,225,0.9248949579831933) 50%, rgba(247,233,210,1) 92%);
+    /*background: rgb(226,205,179);
+    background: linear-gradient(0deg, rgba(226,205,179,1) 3%, rgba(230,216,195,1) 23%, rgba(246,238,225,0.9248949579831933) 50%, rgba(247,233,210,1) 92%);*/
     display: flex;
     flex-direction: column;
     align-items: center;
