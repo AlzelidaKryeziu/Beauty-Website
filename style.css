@@ -322,3 +322,49 @@ div{
     flex: 1;
     background-color: var(--third-color);
 }
+
+.fifth-se{
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: var(--third-color);
+    align-items: center;
+}
+
+.social h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.ig p{
+    font-family: 'Allura', cursive;
+    display: inline;
+    font-size: 60px;
+}
+
+.fifth-btn{
+    width: 180px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.ads{
+    display: flex;
+    flex: 5;
+    background-color: var(--fourth-color);
+}
+
+.all{
+    display: flex;
+    flex: 3;
+    background-color: var(--fifth-color);
+}
