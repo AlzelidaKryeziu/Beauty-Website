@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 :root{
     --primary-color: #9F8772;
@@ -24,6 +25,10 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+h1{
+    margin: 0;
 }
 
 .sale{
@@ -174,7 +179,8 @@ img{
 
 #res{
     color: var(--primary-color);
-    font-size: 30px;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
     margin: 0;
     padding: 0;
 }
@@ -275,13 +281,44 @@ img{
     flex: 1;
     background-color: var(--third-color);
 }
-
+div{
+    display: flex;
+    flex-direction: column;
+}
 .middle{
     flex: 1;
     background-color: var(--second-color);
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--primary-color);
 }
+
+.middle h1{
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+}
+
+.middle p{
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.fourth-btn{
+    width: 180px;
+    height: 45px;
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
 .right{
     flex: 1;
     background-color: var(--third-color);
 }
-
